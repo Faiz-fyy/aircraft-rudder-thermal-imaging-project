@@ -201,13 +201,16 @@ thermal_images (File_ID, Inspection_ID, Env_ID, Equipment_ID,
 ## Project Structure
 
 ```
-├── notebooks/              # Few-shot learning implementation and Visual-only CNN
-├── database/               # MySQL schema and queries
-├── visualizations/         		  # Model analysis and dashboards
-│   ├── dashboards/         		  # Tableau dashboards
-│   └── model_analysis/     	  # Training history, performance metrics and confusion matrices
-├── docs/                   # Methodology and regulatory documentation
-└── README.md               # Project overview
+├── notebooks/
+│   ├── Few-shot.ipynb                           # Main approach
+│   ├── Visual-only.ipynb                        # Secondary approach  
+│   ├── Multi-modal.ipynb                        # Initial approach
+├── database/                                    # MySQL schema and queries
+├── visualizations/         		         # Model analysis and dashboards
+│   ├── dashboards/         		         # Tableau dashboards
+│   └── model_analysis/     	                 # Training history, performance metrics and confusion matrices
+├── docs/                                        # Methodology and regulatory documentation
+└── README.md                                    # Project overview
 ```
 
 ## Portfolio Context & Technical Evolution
